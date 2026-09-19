@@ -74,6 +74,22 @@
             <version>1.12.2-beta22</version>
             <scope>compile</scope>
         </dependency>
+        <!-- Spring Session + Redis -->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+        </dependency>
+        <!-- Source: https://mvnrepository.com/artifact/dev.langchain4j/langchain4j-community-redis-spring-boot-starter -->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-community-redis-spring-boot-starter</artifactId>
+            <version>1.12.2-beta22</version>
+            <scope>compile</scope>
+        </dependency>
         <!-- 数据库连接池 -->
         <dependency>
             <groupId>com.zaxxer</groupId>
