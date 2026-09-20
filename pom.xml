@@ -28,6 +28,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <jedis.version>7.2.1</jedis.version>
     </properties>
     <dependencies>
         <dependency>
@@ -78,6 +79,11 @@
         <dependency>
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+        <!-- Spring Data Redis 使用 Lettuce，避免与 langchain4j 所需的 Jedis 7.x 冲突 -->
+        <dependency>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.ben-manes.caffeine</groupId>

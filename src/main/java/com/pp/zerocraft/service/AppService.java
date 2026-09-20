@@ -6,6 +6,9 @@ import com.pp.zerocraft.model.dto.app.AppQueryRequest;
 import com.pp.zerocraft.model.entity.App;
 import com.pp.zerocraft.model.entity.User;
 import com.pp.zerocraft.model.vo.AppVO;
+import dev.langchain4j.service.MemoryId;
+import dev.langchain4j.service.SystemMessage;
+import dev.langchain4j.service.UserMessage;
 import reactor.core.publisher.Flux;
 
 import java.util.List;
