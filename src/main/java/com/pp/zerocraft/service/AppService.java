@@ -2,6 +2,7 @@ package com.pp.zerocraft.service;
 
 import com.mybatisflex.core.query.QueryWrapper;
 import com.mybatisflex.core.service.IService;
+import com.pp.zerocraft.model.dto.app.AppAddRequest;
 import com.pp.zerocraft.model.dto.app.AppQueryRequest;
 import com.pp.zerocraft.model.entity.App;
 import com.pp.zerocraft.model.entity.User;
@@ -31,4 +32,6 @@ public interface AppService extends IService<App> {
     String deployApp(Long appId, User loginUser);
 
     void generateAppScreenshotAsync(Long appId, String appUrl);
+
+    Long createApp(AppAddRequest appAddRequest, User loginUser);
 }
