@@ -68,6 +68,13 @@
             <artifactId>langchain4j-open-ai-spring-boot-starter</artifactId>
             <version>1.12.2-beta22</version>
         </dependency>
+        <!-- LangChain4j 的 JDK HttpClient 实现：用于替换默认的 SpringRestClient
+             （后者会强制用 ClientHttpRequestFactoryBuilder.detect() 覆盖请求工厂） -->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-http-client-jdk</artifactId>
+            <version>1.12.2</version>
+        </dependency>
         <!-- Selenium 网页截图依赖 -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>

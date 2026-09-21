@@ -108,7 +108,7 @@ public class WebScreenshotUtils {
             // 创建驱动
             WebDriver driver = new ChromeDriver(options);
             // 设置页面加载超时
-            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
             // 设置隐式等待
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
             return driver;
@@ -168,14 +168,14 @@ public class WebScreenshotUtils {
     private static void waitForPageLoad(WebDriver driver) {
         try {
             // 创建等待页面加载对象
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
             // 等待 document.readyState 为complete
             wait.until(webDriver ->
                     "complete".equals(((JavascriptExecutor) webDriver)
                             .executeScript("return document.readyState"))
             );
             // 额外等待一段时间，确保动态内容加载完成
-            Thread.sleep(2000);
+            Thread.sleep(3000);
             log.info("页面加载完成");
         } catch (Exception e) {
             log.error("等待页面加载时出现异常，继续执行截图", e);

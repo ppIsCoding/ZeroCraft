@@ -4,6 +4,7 @@ import com.github.benmanes.caffeine.cache.Cache;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.pp.zerocraft.ai.model.enums.CodeGenTypeEnum;
 import com.pp.zerocraft.ai.model.tools.FileWriteTool;
+import com.pp.zerocraft.ai.model.tools.ToolManager;
 import com.pp.zerocraft.exception.BusinessException;
 import com.pp.zerocraft.exception.ErrorCode;
 import com.pp.zerocraft.service.ChatHistoryService;
@@ -38,6 +39,8 @@ public class AiCodeGeneratorServiceFactory {
 
     @Resource
     private ChatHistoryService chatHistoryService;
+    @Resource
+    private ToolManager toolManager;
 
     /**
      * AI 服务实例缓存
@@ -94,7 +97,7 @@ public class AiCodeGeneratorServiceFactory {
             case VUE_PROJECT -> AiServices.builder(AiCodeGeneratorService.class)
                     .streamingChatModel(reasoningStreamingChatModel)
                     .chatMemoryProvider(memoryId -> chatMemory)
-                    .tools(new FileWriteTool())
+                    .tools(toolManager.getAllTools())
                     .hallucinatedToolNameStrategy(toolExecutionRequest -> ToolExecutionResultMessage.from(
                             toolExecutionRequest, "Error: there is no tool called " + toolExecutionRequest.name()
                     )) // 处理工具调用的幻觉问题
