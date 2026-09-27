@@ -1,4 +1,4 @@
-package com.pp.zerocraft.ai;
+package com.pp.zerocraft.langgraph4j.ai;
 
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.service.AiServices;
@@ -8,23 +8,21 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * AI代码生成类型路由服务工厂
- *
- * @author pp
+ * 代码质量检查服务工厂
  */
 @Slf4j
 @Configuration
-public class AiCodeGenTypeRoutingServiceFactory {
+public class CodeQualityCheckServiceFactory {
 
-    @Resource
+    @Resource(name = "openAiChatModel")
     private ChatModel chatModel;
 
     /**
-     * 创建AI代码生成类型路由服务实例
+     * 创建代码质量检查 AI 服务
      */
     @Bean
-    public AiCodeGenTypeRoutingService aiCodeGenTypeRoutingService() {
-        return AiServices.builder(AiCodeGenTypeRoutingService.class)
+    public CodeQualityCheckService createCodeQualityCheckService() {
+        return AiServices.builder(CodeQualityCheckService.class)
                 .chatModel(chatModel)
                 .build();
     }

@@ -1,0 +1,445 @@
+- generic [ref=f39e1]:
+  - generic [ref=f39e3]:
+    - generic [ref=f39e5]:
+      - link [ref=f39e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f39e8]:
+          - img "Logo" [ref=f39e9]
+          - heading "ZeroCraft" [level=1] [ref=f39e10]
+      - menu [ref=f39e12]:
+        - menuitem "home 主页" [ref=f39e13] [cursor=pointer]:
+          - img "home" [ref=f39e14]
+          - generic [ref=f39e17]: 主页
+      - generic [ref=f39e18]: 无名
+    - main [ref=f39e43]:
+      - generic [ref=f39e44]:
+        - generic [ref=f39e45]:
+          - generic [ref=f39e46]:
+            - heading "帮我做一个个人博客网站，" [level=1] [ref=f39e47]
+            - generic [ref=f39e48]: 原生 HTML 模式
+          - generic [ref=f39e49]:
+            - button "info-circle 应用详情" [ref=f39e50] [cursor=pointer]:
+              - img "info-circle" [ref=f39e51]
+              - generic [ref=f39e55]: 应用详情
+            - button "download 下载代码" [ref=f39e56] [cursor=pointer]:
+              - img "download" [ref=f39e57]
+              - generic [ref=f39e60]: 下载代码
+            - button "cloud-upload 部署" [ref=f39e61] [cursor=pointer]:
+              - img "cloud-upload" [ref=f39e377]
+              - generic [ref=f39e66]: 部署
+        - generic [ref=f39e67]:
+          - generic [ref=f39e68]:
+            - generic [ref=f39e69]:
+              - generic [ref=f39e70]: 帮我做一个个人博客网站，只要50行代码
+              - generic [ref=f39e81]:
+                - paragraph [ref=f39e82]: 这是为您生成的一个简洁的个人博客网站HTML文件。它采用卡片式布局，包含了博客标题、导航、文章卡片和简单的页脚，所有代码都内联在一个文件中，结构清晰。
+                - code [ref=f39e84]:
+                  - generic [ref=f39e85]: <!DOCTYPE html>
+                  - generic [ref=f39e86]: <html lang="en">
+                  - generic [ref=f39e87]: <head>
+                  - generic [ref=f39e88]: <meta charset="UTF-8">
+                  - generic [ref=f39e89]: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  - generic [ref=f39e90]: <title>
+                  - text: 个人博客 · 简约手记
+                  - generic [ref=f39e91]: </title>
+                  - generic [ref=f39e92]: <style>
+                  - generic [ref=f39e93]: "/* 全局重置 + 字体 + 颜色基调 */ * { margin: 0; padding: 0; box-sizing: border-box; } body { background: #f5f7fa; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b; padding: 2rem 1.5rem; } /* 博客容器：限制最大宽度，居中，网格/弹性混合 */ .blog { max-width: 1100px; margin: 0 auto; } /* 头部区域：标题 + 导航 flex 布局 */ .blog-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom: 2.5rem; padding-bottom: 0.75rem; border-bottom: 2px solid #e2e8f0; } .logo { font-size: 1.8rem; font-weight: 600; letter-spacing: -0.02em; color: #0f172a; } .logo span { color: #3b82f6; } .nav-links { display: flex; gap: 2rem; font-weight: 500; } .nav-links a { text-decoration: none; color: #475569; transition: color 0.2s; } .nav-links a:hover { color: #3b82f6; } /* 文章卡片网格区域：使用 grid 自适应列数 */ .post-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 1.5rem; } /* 卡片本身 */ .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03), 0 4px 8px rgba(0, 0, 0, 0.02); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; } .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -8px rgba(0, 0, 0, 0.1); } .card-image { width: 100%; height: 180px; object-fit: cover; display: block; } .card-content { padding: 1.5rem 1.25rem 1.75rem; flex: 1; display: flex; flex-direction: column; } .card h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: #0f172a; } .card .meta { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: #64748b; margin-bottom: 0.8rem; } .card p { color: #334155; font-size: 0.95rem; margin-bottom: 1.25rem; flex: 1; /* 占据剩余空间，使底部对齐 (如果需要) */ } .read-more { align-self: flex-start; font-size: 0.9rem; font-weight: 500; color: #3b82f6; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; } .read-more:hover { border-bottom-color: #3b82f6; } /* 简单页脚 */ .blog-footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; text-align: center; color: #64748b; font-size: 0.9rem; } /* 移动端微调 */ @media (max-width: 640px) { .blog-header { flex-direction: column; align-items: flex-start; gap: 0.8rem; } .nav-links { gap: 1.25rem; } .logo { font-size: 1.6rem; } .post-grid { gap: 1.5rem; } }"
+                  - generic [ref=f39e94]: </style>
+                  - generic [ref=f39e95]: </head>
+                  - generic [ref=f39e96]: <body>
+                  - generic [ref=f39e97]: <main class="blog">
+                  - text: <!-- 头部区域：标题 + 导航（符合个人博客风格） -->
+                  - generic [ref=f39e98]: <header class="blog-header">
+                  - generic [ref=f39e99]: <div class="logo">
+                  - text: 青
+                  - generic [ref=f39e100]: <span>
+                  - text: 柠
+                  - generic [ref=f39e101]: </span>
+                  - text: 志
+                  - generic [ref=f39e102]: </div>
+                  - generic [ref=f39e103]: <nav class="nav-links">
+                  - generic [ref=f39e104]: <a href="#">
+                  - text: 首页
+                  - generic [ref=f39e105]: </a>
+                  - generic [ref=f39e106]: <a href="#">
+                  - text: 归档
+                  - generic [ref=f39e107]: </a>
+                  - generic [ref=f39e108]: <a href="#">
+                  - text: 关于
+                  - generic [ref=f39e109]: </a>
+                  - generic [ref=f39e110]: </nav>
+                  - generic [ref=f39e111]: </header>
+                  - text: <!-- 文章列表网格 -->
+                  - generic [ref=f39e112]: <section class="post-grid">
+                  - text: <!-- 卡片 1 -->
+                  - generic [ref=f39e113]: <article class="card">
+                  - generic [ref=f39e114]: <img class="card-image" src="https://picsum.photos/600/400?random=1" alt="山间清晨">
+                  - generic [ref=f39e115]: <div class="card-content">
+                  - generic [ref=f39e116]: <div class="meta">
+                  - text: 2025.03.12 · 随笔
+                  - generic [ref=f39e117]: </div>
+                  - generic [ref=f39e118]: <h3>
+                  - text: 把时间当作朋友
+                  - generic [ref=f39e119]: </h3>
+                  - generic [ref=f39e120]: <p>
+                  - text: 最近重读《把时间当作朋友》，对「心智」有了新的理解。我们无法管理时间，只能管理自己。
+                  - generic [ref=f39e121]: </p>
+                  - generic [ref=f39e122]: <a href="#" class="read-more">
+                  - text: 继续阅读 →
+                  - generic [ref=f39e123]: </a>
+                  - generic [ref=f39e124]: </div>
+                  - generic [ref=f39e125]: </article>
+                  - text: <!-- 卡片 2 -->
+                  - generic [ref=f39e126]: <article class="card">
+                  - generic [ref=f39e127]: <img class="card-image" src="https://picsum.photos/600/400?random=2" alt="城市夜色">
+                  - generic [ref=f39e128]: <div class="card-content">
+                  - generic [ref=f39e129]: <div class="meta">
+                  - text: 2025.03.05 · 技术
+                  - generic [ref=f39e130]: </div>
+                  - generic [ref=f39e131]: <h3>
+                  - text: 原生 CSS 网格实战
+                  - generic [ref=f39e132]: </h3>
+                  - generic [ref=f39e133]: <p>
+                  - text: 用 grid 搭配 flex 构建响应式卡片，几乎不需要媒体查询，就能获得优雅的移动端体验。
+                  - generic [ref=f39e134]: </p>
+                  - generic [ref=f39e135]: <a href="#" class="read-more">
+                  - text: 继续阅读 →
+                  - generic [ref=f39e136]: </a>
+                  - generic [ref=f39e137]: </div>
+                  - generic [ref=f39e138]: </article>
+                  - text: <!-- 卡片 3 -->
+                  - generic [ref=f39e139]: <article class="card">
+                  - generic [ref=f39e140]: <img class="card-image" src="https://picsum.photos/600/400?random=3" alt="书架一角">
+                  - generic [ref=f39e141]: <div class="card-content">
+                  - generic [ref=f39e142]: <div class="meta">
+                  - text: 2025.02.21 · 阅读
+                  - generic [ref=f39e143]: </div>
+                  - generic [ref=f39e144]: <h3>
+                  - text: 2025 年第一季度书单
+                  - generic [ref=f39e145]: </h3>
+                  - generic [ref=f39e146]: <p>
+                  - text: 《克拉拉与太阳》《置身事内》《可能性的艺术》…… 分享几本最近读完并深受启发的书。
+                  - generic [ref=f39e147]: </p>
+                  - generic [ref=f39e148]: <a href="#" class="read-more">
+                  - text: 继续阅读 →
+                  - generic [ref=f39e149]: </a>
+                  - generic [ref=f39e150]: </div>
+                  - generic [ref=f39e151]: </article>
+                  - generic [ref=f39e152]: </section>
+                  - text: <!-- 简洁 footer -->
+                  - generic [ref=f39e153]: <footer class="blog-footer">
+                  - generic [ref=f39e154]: <p>
+                  - text: © 2025 青柠志 · 记录思考与生活
+                  - generic [ref=f39e155]: </p>
+                  - generic [ref=f39e156]: </footer>
+                  - generic [ref=f39e157]: </main>
+                  - text: <!-- 微交互：点击「继续阅读」时弹窗提示（简单原生 JS） -->
+                  - generic [ref=f39e158]: <script>
+                  - generic [ref=f39e159]:
+                    - text: "(function() { // 为所有“继续阅读”链接添加点击反馈（演示交互性） const readLinks = document.querySelectorAll('.read-more'); readLinks.forEach("
+                    - generic [ref=f39e160]: link =>
+                    - text: "{ link.addEventListener('click', function(e) { e.preventDefault(); // 阻止跳转 // 简单的提示弹窗，纯前端演示，不涉及后端 alert('🔍 这是演示博客，文章内容仅为示意。欢迎阅读原文！'); }); }); // 同时给导航链接添加轻提示（仅演示，不影响体验） const navItems = document.querySelectorAll('.nav-links a'); navItems.forEach("
+                    - generic [ref=f39e161]: item =>
+                    - text: "{ item.addEventListener('click', function(e) { e.preventDefault(); alert('📄 导航示例：当前是静态演示页面。'); }); }); })();"
+                  - generic [ref=f39e162]: </script>
+                  - generic [ref=f39e163]: </body>
+                  - generic [ref=f39e164]: </html>
+              - generic [ref=f39e165]: "帮我改成随笔 选中元素信息： - 标签: h3 - 选择器: main.blog:nth-child(1) > section.post-grid:nth-child(2) > article.card:nth-child(1) > div.card-content:nth-child(2) > h3:nth-child(2) - 当前内容: 把时间当作朋友"
+              - code [ref=f39e178]:
+                - generic [ref=f39e179]: <!DOCTYPE html>
+                - generic [ref=f39e180]: <html lang="en">
+                - generic [ref=f39e181]: <head>
+                - generic [ref=f39e182]: <meta charset="UTF-8">
+                - generic [ref=f39e183]: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                - generic [ref=f39e184]: <title>
+                - text: 个人博客 · 简约手记
+                - generic [ref=f39e185]: </title>
+                - generic [ref=f39e186]: <style>
+                - generic [ref=f39e187]: "/* 全局重置 + 字体 + 颜色基调 */ * { margin: 0; padding: 0; box-sizing: border-box; } body { background: #f5f7fa; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b; padding: 2rem 1.5rem; } /* 博客容器：限制最大宽度，居中 */ .blog { max-width: 1100px; margin: 0 auto; } /* 头部区域：标题 + 导航 flex 布局 */ .blog-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom: 2.5rem; padding-bottom: 0.75rem; border-bottom: 2px solid #e2e8f0; } .logo { font-size: 1.8rem; font-weight: 600; letter-spacing: -0.02em; color: #0f172a; } .logo span { color: #3b82f6; } .nav-links { display: flex; gap: 2rem; font-weight: 500; } .nav-links a { text-decoration: none; color: #475569; transition: color 0.2s; } .nav-links a:hover { color: #3b82f6; } /* 文章卡片网格区域 */ .post-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 1.5rem; } /* 卡片本身 */ .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03), 0 4px 8px rgba(0, 0, 0, 0.02); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; } .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -8px rgba(0, 0, 0, 0.1); } .card-image { width: 100%; height: 180px; object-fit: cover; display: block; } .card-content { padding: 1.5rem 1.25rem 1.75rem; flex: 1; display: flex; flex-direction: column; } .card h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: #0f172a; } .card .meta { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: #64748b; margin-bottom: 0.8rem; } .card p { color: #334155; font-size: 0.95rem; margin-bottom: 1.25rem; flex: 1; } .read-more { align-self: flex-start; font-size: 0.9rem; font-weight: 500; color: #3b82f6; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; } .read-more:hover { border-bottom-color: #3b82f6; } /* 简单页脚 */ .blog-footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; text-align: center; color: #64748b; font-size: 0.9rem; } /* 移动端微调 */ @media (max-width: 640px) { .blog-header { flex-direction: column; align-items: flex-start; gap: 0.8rem; } .nav-links { gap: 1.25rem; } .logo { font-size: 1.6rem; } .post-grid { gap: 1.5rem; } }"
+                - generic [ref=f39e188]: </style>
+                - generic [ref=f39e189]: </head>
+                - generic [ref=f39e190]: <body>
+                - generic [ref=f39e191]: <main class="blog">
+                - text: <!-- 头部区域：标题 + 导航 -->
+                - generic [ref=f39e192]: <header class="blog-header">
+                - generic [ref=f39e193]: <div class="logo">
+                - text: 青
+                - generic [ref=f39e194]: <span>
+                - text: 柠
+                - generic [ref=f39e195]: </span>
+                - text: 志
+                - generic [ref=f39e196]: </div>
+                - generic [ref=f39e197]: <nav class="nav-links">
+                - generic [ref=f39e198]: <a href="#">
+                - text: 首页
+                - generic [ref=f39e199]: </a>
+                - generic [ref=f39e200]: <a href="#">
+                - text: 归档
+                - generic [ref=f39e201]: </a>
+                - generic [ref=f39e202]: <a href="#">
+                - text: 关于
+                - generic [ref=f39e203]: </a>
+                - generic [ref=f39e204]: </nav>
+                - generic [ref=f39e205]: </header>
+                - text: <!-- 文章列表网格 -->
+                - generic [ref=f39e206]: <section class="post-grid">
+                - text: <!-- 卡片 1 -->
+                - generic [ref=f39e207]: <article class="card">
+                - generic [ref=f39e208]: <img class="card-image" src="https://picsum.photos/600/400?random=1" alt="山间清晨">
+                - generic [ref=f39e209]: <div class="card-content">
+                - generic [ref=f39e210]: <div class="meta">
+                - text: 2025.03.12 · 随笔
+                - generic [ref=f39e211]: </div>
+                - generic [ref=f39e212]: <h3>
+                - text: 春日的午后
+                - generic [ref=f39e213]: </h3>
+                - generic [ref=f39e214]: <p>
+                - text: 阳光斜斜地洒在书页上，一杯热茶，一段空白的时间。什么都不做，只是让思绪慢慢飘散。
+                - generic [ref=f39e215]: </p>
+                - generic [ref=f39e216]: <a href="#" class="read-more">
+                - text: 继续阅读 →
+                - generic [ref=f39e217]: </a>
+                - generic [ref=f39e218]: </div>
+                - generic [ref=f39e219]: </article>
+                - text: <!-- 卡片 2 -->
+                - generic [ref=f39e220]: <article class="card">
+                - generic [ref=f39e221]: <img class="card-image" src="https://picsum.photos/600/400?random=2" alt="城市夜色">
+                - generic [ref=f39e222]: <div class="card-content">
+                - generic [ref=f39e223]: <div class="meta">
+                - text: 2025.03.05 · 技术
+                - generic [ref=f39e224]: </div>
+                - generic [ref=f39e225]: <h3>
+                - text: 原生 CSS 网格实战
+                - generic [ref=f39e226]: </h3>
+                - generic [ref=f39e227]: <p>
+                - text: 用 grid 搭配 flex 构建响应式卡片，几乎不需要媒体查询，就能获得优雅的移动端体验。
+                - generic [ref=f39e228]: </p>
+                - generic [ref=f39e229]: <a href="#" class="read-more">
+                - text: 继续阅读 →
+                - generic [ref=f39e230]: </a>
+                - generic [ref=f39e231]: </div>
+                - generic [ref=f39e232]: </article>
+                - text: <!-- 卡片 3 -->
+                - generic [ref=f39e233]: <article class="card">
+                - generic [ref=f39e234]: <img class="card-image" src="https://picsum.photos/600/400?random=3" alt="书架一角">
+                - generic [ref=f39e235]: <div class="card-content">
+                - generic [ref=f39e236]: <div class="meta">
+                - text: 2025.02.21 · 阅读
+                - generic [ref=f39e237]: </div>
+                - generic [ref=f39e238]: <h3>
+                - text: 2025 年第一季度书单
+                - generic [ref=f39e239]: </h3>
+                - generic [ref=f39e240]: <p>
+                - text: 《克拉拉与太阳》《置身事内》《可能性的艺术》…… 分享几本最近读完并深受启发的书。
+                - generic [ref=f39e241]: </p>
+                - generic [ref=f39e242]: <a href="#" class="read-more">
+                - text: 继续阅读 →
+                - generic [ref=f39e243]: </a>
+                - generic [ref=f39e244]: </div>
+                - generic [ref=f39e245]: </article>
+                - generic [ref=f39e246]: </section>
+                - text: <!-- 简洁 footer -->
+                - generic [ref=f39e247]: <footer class="blog-footer">
+                - generic [ref=f39e248]: <p>
+                - text: © 2025 青柠志 · 记录思考与生活
+                - generic [ref=f39e249]: </p>
+                - generic [ref=f39e250]: </footer>
+                - generic [ref=f39e251]: </main>
+                - text: <!-- 微交互：点击「继续阅读」时弹窗提示 -->
+                - generic [ref=f39e252]: <script>
+                - generic [ref=f39e253]:
+                  - text: "(function() { // 为所有“继续阅读”链接添加点击反馈 const readLinks = document.querySelectorAll('.read-more'); readLinks.forEach("
+                  - generic [ref=f39e254]: link =>
+                  - text: "{ link.addEventListener('click', function(e) { e.preventDefault(); alert('🔍 这是演示博客，文章内容仅为示意。欢迎阅读原文！'); }); }); // 导航链接轻提示 const navItems = document.querySelectorAll('.nav-links a'); navItems.forEach("
+                  - generic [ref=f39e255]: item =>
+                  - text: "{ item.addEventListener('click', function(e) { e.preventDefault(); alert('📄 导航示例：当前是静态演示页面。'); }); }); })();"
+                - generic [ref=f39e256]: </script>
+                - generic [ref=f39e257]: </body>
+                - generic [ref=f39e258]: </html>
+              - generic [ref=f39e259]: "帮我改成随笔，这俩个字 选中元素信息： - 标签: h3 - 选择器: main.blog:nth-child(1) > section.post-grid:nth-child(2) > article.card:nth-child(1) > div.card-content:nth-child(2) > h3:nth-child(2) - 当前内容: 春日的午后"
+              - code [ref=f39e272]:
+                - generic [ref=f39e273]: <!DOCTYPE html>
+                - generic [ref=f39e274]: <html lang="en">
+                - generic [ref=f39e275]: <head>
+                - generic [ref=f39e276]: <meta charset="UTF-8">
+                - generic [ref=f39e277]: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                - generic [ref=f39e278]: <title>
+                - text: 个人博客 · 简约手记
+                - generic [ref=f39e279]: </title>
+                - generic [ref=f39e280]: <style>
+                - generic [ref=f39e281]: "/* 全局重置 + 字体 + 颜色基调 */ * { margin: 0; padding: 0; box-sizing: border-box; } body { background: #f5f7fa; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b; padding: 2rem 1.5rem; } /* 博客容器：限制最大宽度，居中 */ .blog { max-width: 1100px; margin: 0 auto; } /* 头部区域：标题 + 导航 flex 布局 */ .blog-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom: 2.5rem; padding-bottom: 0.75rem; border-bottom: 2px solid #e2e8f0; } .logo { font-size: 1.8rem; font-weight: 600; letter-spacing: -0.02em; color: #0f172a; } .logo span { color: #3b82f6; } .nav-links { display: flex; gap: 2rem; font-weight: 500; } .nav-links a { text-decoration: none; color: #475569; transition: color 0.2s; } .nav-links a:hover { color: #3b82f6; } /* 文章卡片网格区域 */ .post-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 1.5rem; } /* 卡片本身 */ .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03), 0 4px 8px rgba(0, 0, 0, 0.02); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; } .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -8px rgba(0, 0, 0, 0.1); } .card-image { width: 100%; height: 180px; object-fit: cover; display: block; } .card-content { padding: 1.5rem 1.25rem 1.75rem; flex: 1; display: flex; flex-direction: column; } .card h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: #0f172a; } .card .meta { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: #64748b; margin-bottom: 0.8rem; } .card p { color: #334155; font-size: 0.95rem; margin-bottom: 1.25rem; flex: 1; } .read-more { align-self: flex-start; font-size: 0.9rem; font-weight: 500; color: #3b82f6; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; } .read-more:hover { border-bottom-color: #3b82f6; } /* 简单页脚 */ .blog-footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; text-align: center; color: #64748b; font-size: 0.9rem; } /* 移动端微调 */ @media (max-width: 640px) { .blog-header { flex-direction: column; align-items: flex-start; gap: 0.8rem; } .nav-links { gap: 1.25rem; } .logo { font-size: 1.6rem; } .post-grid { gap: 1.5rem; } }"
+                - generic [ref=f39e282]: </style>
+                - generic [ref=f39e283]: </head>
+                - generic [ref=f39e284]: <body>
+                - generic [ref=f39e285]: <main class="blog">
+                - text: <!-- 头部区域：标题 + 导航 -->
+                - generic [ref=f39e286]: <header class="blog-header">
+                - generic [ref=f39e287]: <div class="logo">
+                - text: 青
+                - generic [ref=f39e288]: <span>
+                - text: 柠
+                - generic [ref=f39e289]: </span>
+                - text: 志
+                - generic [ref=f39e290]: </div>
+                - generic [ref=f39e291]: <nav class="nav-links">
+                - generic [ref=f39e292]: <a href="#">
+                - text: 首页
+                - generic [ref=f39e293]: </a>
+                - generic [ref=f39e294]: <a href="#">
+                - text: 归档
+                - generic [ref=f39e295]: </a>
+                - generic [ref=f39e296]: <a href="#">
+                - text: 关于
+                - generic [ref=f39e297]: </a>
+                - generic [ref=f39e298]: </nav>
+                - generic [ref=f39e299]: </header>
+                - text: <!-- 文章列表网格 -->
+                - generic [ref=f39e300]: <section class="post-grid">
+                - text: <!-- 卡片 1 -->
+                - generic [ref=f39e301]: <article class="card">
+                - generic [ref=f39e302]: <img class="card-image" src="https://picsum.photos/600/400?random=1" alt="山间清晨">
+                - generic [ref=f39e303]: <div class="card-content">
+                - generic [ref=f39e304]: <div class="meta">
+                - text: 2025.03.12 · 随笔
+                - generic [ref=f39e305]: </div>
+                - generic [ref=f39e306]: <h3>
+                - text: 随笔
+                - generic [ref=f39e307]: </h3>
+                - generic [ref=f39e308]: <p>
+                - text: 阳光斜斜地洒在书页上，一杯热茶，一段空白的时间。什么都不做，只是让思绪慢慢飘散。
+                - generic [ref=f39e309]: </p>
+                - generic [ref=f39e310]: <a href="#" class="read-more">
+                - text: 继续阅读 →
+                - generic [ref=f39e311]: </a>
+                - generic [ref=f39e312]: </div>
+                - generic [ref=f39e313]: </article>
+                - text: <!-- 卡片 2 -->
+                - generic [ref=f39e314]: <article class="card">
+                - generic [ref=f39e315]: <img class="card-image" src="https://picsum.photos/600/400?random=2" alt="城市夜色">
+                - generic [ref=f39e316]: <div class="card-content">
+                - generic [ref=f39e317]: <div class="meta">
+                - text: 2025.03.05 · 技术
+                - generic [ref=f39e318]: </div>
+                - generic [ref=f39e319]: <h3>
+                - text: 原生 CSS 网格实战
+                - generic [ref=f39e320]: </h3>
+                - generic [ref=f39e321]: <p>
+                - text: 用 grid 搭配 flex 构建响应式卡片，几乎不需要媒体查询，就能获得优雅的移动端体验。
+                - generic [ref=f39e322]: </p>
+                - generic [ref=f39e323]: <a href="#" class="read-more">
+                - text: 继续阅读 →
+                - generic [ref=f39e324]: </a>
+                - generic [ref=f39e325]: </div>
+                - generic [ref=f39e326]: </article>
+                - text: <!-- 卡片 3 -->
+                - generic [ref=f39e327]: <article class="card">
+                - generic [ref=f39e328]: <img class="card-image" src="https://picsum.photos/600/400?random=3" alt="书架一角">
+                - generic [ref=f39e329]: <div class="card-content">
+                - generic [ref=f39e330]: <div class="meta">
+                - text: 2025.02.21 · 阅读
+                - generic [ref=f39e331]: </div>
+                - generic [ref=f39e332]: <h3>
+                - text: 2025 年第一季度书单
+                - generic [ref=f39e333]: </h3>
+                - generic [ref=f39e334]: <p>
+                - text: 《克拉拉与太阳》《置身事内》《可能性的艺术》…… 分享几本最近读完并深受启发的书。
+                - generic [ref=f39e335]: </p>
+                - generic [ref=f39e336]: <a href="#" class="read-more">
+                - text: 继续阅读 →
+                - generic [ref=f39e337]: </a>
+                - generic [ref=f39e338]: </div>
+                - generic [ref=f39e339]: </article>
+                - generic [ref=f39e340]: </section>
+                - text: <!-- 简洁 footer -->
+                - generic [ref=f39e341]: <footer class="blog-footer">
+                - generic [ref=f39e342]: <p>
+                - text: © 2025 青柠志 · 记录思考与生活
+                - generic [ref=f39e343]: </p>
+                - generic [ref=f39e344]: </footer>
+                - generic [ref=f39e345]: </main>
+                - text: <!-- 微交互：点击「继续阅读」时弹窗提示 -->
+                - generic [ref=f39e346]: <script>
+                - generic [ref=f39e347]:
+                  - text: "(function() { // 为所有“继续阅读”链接添加点击反馈 const readLinks = document.querySelectorAll('.read-more'); readLinks.forEach("
+                  - generic [ref=f39e348]: link =>
+                  - text: "{ link.addEventListener('click', function(e) { e.preventDefault(); alert('🔍 这是演示博客，文章内容仅为示意。欢迎阅读原文！'); }); }); // 导航链接轻提示 const navItems = document.querySelectorAll('.nav-links a'); navItems.forEach("
+                  - generic [ref=f39e349]: item =>
+                  - text: "{ item.addEventListener('click', function(e) { e.preventDefault(); alert('📄 导航示例：当前是静态演示页面。'); }); }); })();"
+                - generic [ref=f39e350]: </script>
+                - generic [ref=f39e351]: </body>
+                - generic [ref=f39e352]: </html>
+            - generic [ref=f39e354]:
+              - textbox "请描述你想生成的网站，越详细效果越好哦" [ref=f39e355]
+              - button [ref=f39e357] [cursor=pointer]:
+                - img "send" [ref=f39e358]
+          - generic [ref=f39e361]:
+            - generic [ref=f39e362]:
+              - heading "生成后的网页展示" [level=3] [ref=f39e363]
+              - generic [ref=f39e364]:
+                - button "edit 编辑模式" [ref=f39e365] [cursor=pointer]:
+                  - img "edit" [ref=f39e366]
+                  - generic [ref=f39e369]: 编辑模式
+                - button "export 新窗口打开" [ref=f39e370] [cursor=pointer]:
+                  - img "export" [ref=f39e371]
+                  - generic [ref=f39e374]: 新窗口打开
+            - iframe [ref=f39e376]:
+              - main [ref=f40e2]:
+                - generic [ref=f40e3]:
+                  - generic [ref=f40e4]: 青柠志
+                  - navigation [ref=f40e5]:
+                    - link "首页" [ref=f40e6] [cursor=pointer]:
+                      - /url: "#"
+                    - link "归档" [ref=f40e7] [cursor=pointer]:
+                      - /url: "#"
+                    - link "关于" [ref=f40e8] [cursor=pointer]:
+                      - /url: "#"
+                - generic [ref=f40e9]:
+                  - article [ref=f40e10]:
+                    - img "山间清晨" [ref=f40e11]
+                    - generic [ref=f40e12]:
+                      - generic [ref=f40e13]: 2025.03.12 · 随笔
+                      - heading "随笔" [level=3] [ref=f40e14]
+                      - paragraph [ref=f40e15]: 阳光斜斜地洒在书页上，一杯热茶，一段空白的时间。什么都不做，只是让思绪慢慢飘散。
+                      - link "继续阅读 →" [ref=f40e16] [cursor=pointer]:
+                        - /url: "#"
+                  - article [ref=f40e17]:
+                    - img "城市夜色" [ref=f40e18]
+                    - generic [ref=f40e19]:
+                      - generic [ref=f40e20]: 2025.03.05 · 技术
+                      - heading "原生 CSS 网格实战" [level=3] [ref=f40e21]
+                      - paragraph [ref=f40e22]: 用 grid 搭配 flex 构建响应式卡片，几乎不需要媒体查询，就能获得优雅的移动端体验。
+                      - link "继续阅读 →" [ref=f40e23] [cursor=pointer]:
+                        - /url: "#"
+                  - article [ref=f40e24]:
+                    - img "书架一角" [ref=f40e25]
+                    - generic [ref=f40e26]:
+                      - generic [ref=f40e27]: 2025.02.21 · 阅读
+                      - heading "2025 年第一季度书单" [level=3] [ref=f40e28]
+                      - paragraph [ref=f40e29]: 《克拉拉与太阳》《置身事内》《可能性的艺术》…… 分享几本最近读完并深受启发的书。
+                      - link "继续阅读 →" [ref=f40e30] [cursor=pointer]:
+                        - /url: "#"
+                - paragraph [ref=f40e32]: © 2025 青柠志 · 记录思考与生活
+    - paragraph [ref=f39e25]: ZeroCraft - AI 零代码应用生成平台
+  - generic [ref=f39e26]:
+    - generic "Toggle devtools panel" [ref=f39e27] [cursor=pointer]
+    - generic "Toggle Component Inspector" [ref=f39e33] [cursor=pointer]
+  - generic [ref=f39e382]:
+    - img "check-circle" [ref=f39e383]
+    - text: 部署成功
+  - dialog "部署成功" [ref=f39e387]:
+    - document:
+      - generic [ref=f39e388]:
+        - button "Close" [ref=f39e389] [cursor=pointer]:
+          - img "close" [ref=f39e391]
+        - generic [ref=f39e394]: 部署成功
+        - generic [ref=f39e397]:
+          - img "check-circle" [ref=f39e399]
+          - heading "网站部署成功！" [level=3] [ref=f39e403]
+          - paragraph [ref=f39e404]: 你的网站已经成功部署，可以通过以下链接访问：
+          - generic [ref=f39e406]:
+            - textbox [ref=f39e407]: http://localhost:81/WGJQoq/
+            - button [ref=f39e409] [cursor=pointer]:
+              - img "copy" [ref=f39e410]
+          - generic [ref=f39e413]:
+            - button "访问网站" [ref=f39e414] [cursor=pointer]
+            - button "关 闭" [ref=f39e416] [cursor=pointer]

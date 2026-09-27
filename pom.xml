@@ -28,6 +28,10 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.release>21</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jedis.version>7.2.1</jedis.version>
     </properties>
     <dependencies>
@@ -118,6 +122,24 @@
             <artifactId>langchain4j-community-redis-spring-boot-starter</artifactId>
             <version>1.12.2-beta22</version>
             <scope>compile</scope>
+        </dependency>
+        <!-- LangGraph4j 工作流编排 -->
+        <dependency>
+            <groupId>org.bsc.langgraph4j</groupId>
+            <artifactId>langgraph4j-core</artifactId>
+            <version>1.6.0-rc2</version>
+        </dependency>
+        <!-- LangGraph4j Studio 可视化调试 -->
+        <dependency>
+            <groupId>org.bsc.langgraph4j</groupId>
+            <artifactId>langgraph4j-studio-springboot</artifactId>
+            <version>1.6.0-rc2</version>
+        </dependency>
+        <!-- 阿里云 DashScope SDK（图片生成） -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dashscope-sdk-java</artifactId>
+            <version>2.21.1</version>
         </dependency>
         <!-- 数据库连接池 -->
         <dependency>

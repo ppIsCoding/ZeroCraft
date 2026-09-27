@@ -1,0 +1,19 @@
+- generic [active] [ref=f45e1]:
+  - generic [ref=f45e3]:
+    - generic [ref=f45e5]:
+      - link [ref=f45e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f45e8]:
+          - img "Logo" [ref=f45e9]
+          - heading "ZeroCraft" [level=1] [ref=f45e10]
+      - menu [ref=f45e12]:
+        - menuitem "home 主页" [ref=f45e13] [cursor=pointer]:
+          - img "home" [ref=f45e14]
+          - generic [ref=f45e17]: 主页
+      - link "登 录" [ref=f45e21] [cursor=pointer]:
+        - /url: /user/login
+    - main
+    - paragraph [ref=f45e25]: ZeroCraft - AI 零代码应用生成平台
+  - generic [ref=f45e26]:
+    - generic "Toggle devtools panel" [ref=f45e27] [cursor=pointer]
+    - generic "Toggle Component Inspector" [ref=f45e33] [cursor=pointer]

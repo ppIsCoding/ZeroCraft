@@ -1,0 +1,372 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.pp:ZeroCraft >--------------------------
+[INFO] Building ZeroCraft 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.16:run (default-cli) > test-compile @ ZeroCraft >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ZeroCraft ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ ZeroCraft ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ZeroCraft ---
+[INFO] skip non existing resourceDirectory E:\Desktop\ZeroCraft\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ ZeroCraft ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.16:run (default-cli) < test-compile @ ZeroCraft <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.16:run (default-cli) @ ZeroCraft ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-09-21T16:38:58.597+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Starting ZeroCraftApplication using Java 21.0.7 with PID 27400 (E:\Desktop\ZeroCraft\target\classes started by 32896 in E:\Desktop\ZeroCraft)
+2026-09-21T16:38:58.597+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : The following 1 profile is active: "local"
+2026-09-21T16:38:58.642+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\32896\.m2\repository\org\apache\opennlp\opennlp-tools\2.5.4\opennlp-tools-2.5.4.jar referenced one or more files that do not exist: file:/C:/Users/32896/.m2/repository/org/apache/opennlp/opennlp-tools/2.5.4/slf4j-api-2.0.17.jar
+2026-09-21T16:38:58.642+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-21T16:38:58.642+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-21T16:38:59.212+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-21T16:38:59.220+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-21T16:38:59.251+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2026-09-21T16:38:59.898+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8123 (http)
+2026-09-21T16:38:59.909+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-21T16:38:59.909+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-09-21T16:38:59.957+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-09-21T16:38:59.957+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1315 ms
+  __  __       _           _   _       _____ _           
+ |  \/  |_   _| |__   __ _| |_(_)___  |  ___| | _____  __
+ | |\/| | | | | '_ \ / _` | __| / __| | |_  | |/ _ \ \/ /
+ | |  | | |_| | |_) | (_| | |_| \__ \ |  _| | |  __/>  < 
+ |_|  |_|\__, |_.__/ \__,_|\__|_|___/ |_|   |_|\___/_/\_\
+         |___/ v1.11.8 https://mybatis-flex.com
+2026-09-21T16:39:00.749+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-21T16:39:00.805+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] i.opentelemetry.api.GlobalOpenTelemetry  : AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
+2026-09-21T16:39:00.936+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1455423f
+2026-09-21T16:39:00.937+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-21T16:39:01.086+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-09-21T16:39:01.601+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-21T16:39:01.621+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8123 (http) with context path '/api'
+2026-09-21T16:39:01.631+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Started ZeroCraftApplication in 3.329 seconds (process running for 3.64)
+2026-09-21T16:40:03.791+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-21T16:40:03.791+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-21T16:40:03.791+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-09-21T16:40:16.866+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] c.p.z.s.impl.ScreenshotServiceImpl       : 开始生成网页截图，URL: http://localhost:81/WGJQoq/
+2026-09-21T16:41:23.182+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 153.0.8010.52 (resolved driver for Chrome 153)
+2026-09-21T16:41:23.435+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] i.g.bonigarcia.wdm.online.Downloader     : Downloading https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/win64/chromedriver-win64.zip
+2026-09-21T16:41:27.839+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] i.g.bonigarcia.wdm.online.Downloader     : Extracting driver from compressed file chromedriver-win64.zip
+2026-09-21T16:41:27.987+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\32896\.cache\selenium\chromedriver\win64\153.0.8010.52\chromedriver.exe
+2026-09-21T16:41:29.641+08:00  WARN 27400 --- [zerocraft-backend] [     virtual-78] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 153
+2026-09-21T16:41:29.641+08:00  WARN 27400 --- [zerocraft-backend] [     virtual-78] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 153.0.8010.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.31.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-21T16:41:46.644+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] c.pp.zerocraft.utils.WebScreenshotUtils  : 页面加载完成
+2026-09-21T16:41:46.933+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] c.pp.zerocraft.utils.WebScreenshotUtils  : 原始截图保存成功: E:\Desktop\ZeroCraft\tmp\screenshots\2b0c7659\50510.png
+2026-09-21T16:41:47.420+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] c.pp.zerocraft.utils.WebScreenshotUtils  : 压缩图片保存成功: E:\Desktop\ZeroCraft\tmp\screenshots\2b0c7659\02849_compressed.jpg
+2026-09-21T16:41:49.551+08:00  INFO 27400 --- [zerocraft-backend] [     virtual-78] c.p.z.s.impl.ScreenshotServiceImpl       : 本地截图文件已清理: E:\Desktop\ZeroCraft\tmp\screenshots\2b0c7659\02849_compressed.jpg
+Exception in thread "" com.qcloud.cos.exception.CosServiceException: The specified bucket does not exist. (Status Code: 404; Error Code: NoSuchBucket; Request ID: NmFiMGVkY2VfOGIyODY1MDlfMTBhNzlfMWJhNWNhODg=); Trace ID: OGVmYzZiMmQzYjA2OWNhODk0NTRkMTBiOWVmMDAxODc1NGE1MWY0MzY2NTg1MzM1OTY3MDliYzY2YTQ0ZThhMGQwMWM3NzAwYWJhNmI2NzNkNDdiZjBiZDdkYmQyYTM3. errCode:NoSuchBucket,causeExp:null. statusCode:404,requestId:NmFiMGVkY2VfOGIyODY1MDlfMTBhNzlfMWJhNWNhODg=,errType:Client
+	at com.qcloud.cos.http.DefaultCosHttpClient.handlerErrorMessage(DefaultCosHttpClient.java:388)
+	at com.qcloud.cos.http.DefaultCosHttpClient.checkResponse(DefaultCosHttpClient.java:426)
+	at com.qcloud.cos.http.DefaultCosHttpClient.exeute(DefaultCosHttpClient.java:523)
+	at com.qcloud.cos.COSClient.invoke(COSClient.java:576)
+	at com.qcloud.cos.COSClient.uploadObjectInternal(COSClient.java:972)
+	at com.qcloud.cos.COSClient.putObject(COSClient.java:790)
+	at com.pp.zerocraft.manager.CosManager.putObject(CosManager.java:37)
+	at com.pp.zerocraft.manager.CosManager.uploadFile(CosManager.java:49)
+	at com.pp.zerocraft.service.impl.ScreenshotServiceImpl.uploadScreenshotToCos(ScreenshotServiceImpl.java:68)
+	at com.pp.zerocraft.service.impl.ScreenshotServiceImpl.generateAndUploadScreenshot(ScreenshotServiceImpl.java:40)
+	at com.pp.zerocraft.service.impl.AppServiceImpl.lambda$generateAppScreenshotAsync$1(AppServiceImpl.java:233)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+2026-09-21T16:41:50.414+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : 开始构建 Vue 项目: E:\Desktop\ZeroCraft/tmp/code_output\vue_project_459194791651147776
+2026-09-21T16:41:50.414+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : 执行 npm install...
+2026-09-21T16:41:50.414+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : 在目录 E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776 中执行命令: npm.cmd install
+2026-09-21T16:41:51.806+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : 命令执行成功: npm.cmd install
+2026-09-21T16:41:51.806+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : 执行 npm run build...
+2026-09-21T16:41:51.806+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : 在目录 E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776 中执行命令: npm.cmd run build
+2026-09-21T16:41:54.307+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : 命令执行成功: npm.cmd run build
+2026-09-21T16:41:54.312+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.core.builder.VueProjectBuilder     : Vue 项目构建成功，dist 目录: E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776\dist
+2026-09-21T16:41:54.312+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] c.p.z.service.impl.AppServiceImpl        : Vue 项目构建成功，将部署 dist 目录: E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776\dist
+2026-09-21T16:41:54.330+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-125] c.p.z.s.impl.ScreenshotServiceImpl       : 开始生成网页截图，URL: http://localhost:81/Suf4uk/
+2026-09-21T16:41:54.405+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-125] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 153.0.8010.52 (resolved driver for Chrome 153)
+2026-09-21T16:41:54.412+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-125] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\32896\.cache\selenium\chromedriver\win64\153.0.8010.52\chromedriver.exe
+2026-09-21T16:41:57.757+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-125] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 153
+2026-09-21T16:41:57.759+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-125] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 153.0.8010.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.31.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-21T16:42:27.790+08:00 ERROR 27400 --- [zerocraft-backend] [    virtual-125] c.pp.zerocraft.utils.WebScreenshotUtils  : 网页截图失败: http://localhost:81/Suf4uk/
+
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.884
+  (Session info: chrome=153.0.8010.52)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f02566db10a00a9891bb9bdcfdf6eded, get {url=http://localhost:81/Suf4uk/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.52, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50358}, goog:processID: 24216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50358/devtoo..., se:cdpVersion: 153.0.8010.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f02566db10a00a9891bb9bdcfdf6eded
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313) ~[selenium-remote-driver-4.31.0.jar:na]
+	at com.pp.zerocraft.utils.WebScreenshotUtils.saveWebPageScreenshot(WebScreenshotUtils.java:60) ~[classes/:na]
+	at com.pp.zerocraft.service.impl.ScreenshotServiceImpl.generateAndUploadScreenshot(ScreenshotServiceImpl.java:36) ~[classes/:na]
+	at com.pp.zerocraft.service.impl.AppServiceImpl.lambda$generateAppScreenshotAsync$1(AppServiceImpl.java:233) ~[classes/:na]
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329) ~[na:na]
+
+Exception in thread "" com.pp.zerocraft.exception.BusinessException: ���ؽ�ͼ����ʧ��
+	at com.pp.zerocraft.exception.ThrowUtils.throwIf(ThrowUtils.java:35)
+	at com.pp.zerocraft.service.impl.ScreenshotServiceImpl.generateAndUploadScreenshot(ScreenshotServiceImpl.java:37)
+	at com.pp.zerocraft.service.impl.AppServiceImpl.lambda$generateAppScreenshotAsync$1(AppServiceImpl.java:233)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+2026-09-21T16:43:12.820+08:00  INFO 27400 --- [zerocraft-backend] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-21T16:43:12.824+08:00  INFO 27400 --- [zerocraft-backend] [       Thread-6] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-21T16:43:12.833+08:00  INFO 27400 --- [zerocraft-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-21T16:43:12.848+08:00  INFO 27400 --- [zerocraft-backend] [       Thread-6] c.qcloud.cos.http.DefaultCosHttpClient   : shutdown stackTrace:
+Class: com.qcloud.cos.http.DefaultCosHttpClient, Method: shutdown, Line: 147
+Class: com.qcloud.cos.COSClient, Method: shutdown, Line: 183
+Class: jdk.internal.reflect.DirectMethodHandleAccessor, Method: invoke, Line: 103
+Class: java.lang.reflect.Method, Method: invoke, Line: 580
+Class: org.springframework.beans.factory.support.DisposableBeanAdapter, Method: invokeCustomDestroyMethod, Line: 317
+Class: org.springframework.beans.factory.support.DisposableBeanAdapter, Method: destroy, Line: 250
+Class: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry, Method: destroyBean, Line: 798
+Class: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry, Method: destroySingleton, Line: 748
+Class: org.springframework.beans.factory.support.DefaultListableBeanFactory, Method: destroySingleton, Line: 1506
+Class: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry, Method: destroySingletons, Line: 707
+Class: org.springframework.beans.factory.support.DefaultListableBeanFactory, Method: destroySingletons, Line: 1499
+Class: org.springframework.context.support.AbstractApplicationContext, Method: destroyBeans, Line: 1243
+Class: org.springframework.context.support.AbstractApplicationContext, Method: doClose, Line: 1204
+Class: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext, Method: doClose, Line: 179
+Class: org.springframework.context.support.AbstractApplicationContext, Method: close, Line: 1150
+Class: org.springframework.boot.devtools.restart.Restarter, Method: stop, Line: 308
+Class: org.springframework.boot.devtools.restart.Restarter, Method: lambda$restart$1, Line: 250
+Class: org.springframework.boot.devtools.restart.Restarter$LeakSafeThread, Method: run, Line: 612
+2026-09-21T16:43:12.848+08:00  INFO 27400 --- [zerocraft-backend] [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-21T16:43:12.858+08:00  INFO 27400 --- [zerocraft-backend] [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-09-21T16:43:12.952+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Starting ZeroCraftApplication using Java 21.0.7 with PID 27400 (E:\Desktop\ZeroCraft\target\classes started by 32896 in E:\Desktop\ZeroCraft)
+2026-09-21T16:43:12.952+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : The following 1 profile is active: "local"
+2026-09-21T16:43:13.191+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-21T16:43:13.191+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-21T16:43:13.198+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2026-09-21T16:43:13.340+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8123 (http)
+2026-09-21T16:43:13.343+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-21T16:43:13.343+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-09-21T16:43:13.370+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-09-21T16:43:13.370+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 412 ms
+  __  __       _           _   _       _____ _           
+ |  \/  |_   _| |__   __ _| |_(_)___  |  ___| | _____  __
+ | |\/| | | | | '_ \ / _` | __| / __| | |_  | |/ _ \ \/ /
+ | |  | | |_| | |_) | (_| | |_| \__ \ |  _| | |  __/>  < 
+ |_|  |_|\__, |_.__/ \__,_|\__|_|___/ |_|   |_|\___/_/\_\
+         |___/ v1.11.8 https://mybatis-flex.com
+2026-09-21T16:43:13.589+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-09-21T16:43:13.602+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cc02404
+2026-09-21T16:43:13.602+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-09-21T16:43:13.654+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-09-21T16:43:13.826+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-21T16:43:13.838+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8123 (http) with context path '/api'
+2026-09-21T16:43:13.841+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Started ZeroCraftApplication in 0.933 seconds (process running for 255.847)
+2026-09-21T16:43:13.843+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-21T16:43:45.167+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-21T16:43:45.167+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-21T16:43:45.167+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-09-21T16:43:57.402+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] c.p.z.s.impl.ScreenshotServiceImpl       : 开始生成网页截图，URL: http://localhost:81/WGJQoq/
+2026-09-21T16:43:57.410+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 153.0.8010.52 (resolved driver for Chrome 153)
+2026-09-21T16:43:57.413+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\32896\.cache\selenium\chromedriver\win64\153.0.8010.52\chromedriver.exe
+2026-09-21T16:43:58.770+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-202] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 153
+2026-09-21T16:43:58.771+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-202] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 153.0.8010.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.31.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-21T16:44:25.158+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] c.pp.zerocraft.utils.WebScreenshotUtils  : 页面加载完成
+2026-09-21T16:44:25.260+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] c.pp.zerocraft.utils.WebScreenshotUtils  : 原始截图保存成功: E:\Desktop\ZeroCraft\tmp\screenshots\982365de\82086.png
+2026-09-21T16:44:25.317+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] c.pp.zerocraft.utils.WebScreenshotUtils  : 压缩图片保存成功: E:\Desktop\ZeroCraft\tmp\screenshots\982365de\68299_compressed.jpg
+2026-09-21T16:44:27.377+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] com.pp.zerocraft.manager.CosManager      : 文件上传COS成功: 68299_compressed.jpg -> https://zerocraft-1331412977.cos.ap-beijing.myqcloud.com/screenshots/2026/09/21/5493716a_compressed.jpg
+2026-09-21T16:44:27.377+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] c.p.z.s.impl.ScreenshotServiceImpl       : 网页截图生成并上传成功: http://localhost:81/WGJQoq/ -> https://zerocraft-1331412977.cos.ap-beijing.myqcloud.com/screenshots/2026/09/21/5493716a_compressed.jpg
+2026-09-21T16:44:27.377+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-202] c.p.z.s.impl.ScreenshotServiceImpl       : 本地截图文件已清理: E:\Desktop\ZeroCraft\tmp\screenshots\982365de\68299_compressed.jpg
+2026-09-21T16:45:33.158+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : 开始构建 Vue 项目: E:\Desktop\ZeroCraft/tmp/code_output\vue_project_459194791651147776
+2026-09-21T16:45:33.158+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : 执行 npm install...
+2026-09-21T16:45:33.161+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : 在目录 E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776 中执行命令: npm.cmd install
+2026-09-21T16:45:34.731+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : 命令执行成功: npm.cmd install
+2026-09-21T16:45:34.731+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : 执行 npm run build...
+2026-09-21T16:45:34.736+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : 在目录 E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776 中执行命令: npm.cmd run build
+2026-09-21T16:45:37.412+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : 命令执行成功: npm.cmd run build
+2026-09-21T16:45:37.412+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.core.builder.VueProjectBuilder     : Vue 项目构建成功，dist 目录: E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776\dist
+2026-09-21T16:45:37.412+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-9] c.p.z.service.impl.AppServiceImpl        : Vue 项目构建成功，将部署 dist 目录: E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776\dist
+2026-09-21T16:45:37.427+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-219] c.p.z.s.impl.ScreenshotServiceImpl       : 开始生成网页截图，URL: http://localhost:81/Suf4uk/
+2026-09-21T16:45:37.440+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-219] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 153.0.8010.52 (resolved driver for Chrome 153)
+2026-09-21T16:45:37.446+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-219] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\32896\.cache\selenium\chromedriver\win64\153.0.8010.52\chromedriver.exe
+2026-09-21T16:45:38.756+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-219] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 153
+2026-09-21T16:45:38.756+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-219] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 153.0.8010.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.31.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-21T16:46:08.817+08:00 ERROR 27400 --- [zerocraft-backend] [    virtual-219] c.pp.zerocraft.utils.WebScreenshotUtils  : 网页截图失败: http://localhost:81/Suf4uk/
+
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.804
+  (Session info: chrome=153.0.8010.52)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [841b2601b466954ba0a9b95b9458a4ee, get {url=http://localhost:81/Suf4uk/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.52, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52416}, goog:processID: 12844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52416/devtoo..., se:cdpVersion: 153.0.8010.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 841b2601b466954ba0a9b95b9458a4ee
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313) ~[selenium-remote-driver-4.31.0.jar:na]
+	at com.pp.zerocraft.utils.WebScreenshotUtils.saveWebPageScreenshot(WebScreenshotUtils.java:60) ~[classes/:na]
+	at com.pp.zerocraft.service.impl.ScreenshotServiceImpl.generateAndUploadScreenshot(ScreenshotServiceImpl.java:36) ~[classes/:na]
+	at com.pp.zerocraft.service.impl.AppServiceImpl.lambda$generateAppScreenshotAsync$1(AppServiceImpl.java:233) ~[classes/:na]
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329) ~[na:na]
+
+Exception in thread "" com.pp.zerocraft.exception.BusinessException: ���ؽ�ͼ����ʧ��
+	at com.pp.zerocraft.exception.ThrowUtils.throwIf(ThrowUtils.java:35)
+	at com.pp.zerocraft.service.impl.ScreenshotServiceImpl.generateAndUploadScreenshot(ScreenshotServiceImpl.java:37)
+	at com.pp.zerocraft.service.impl.AppServiceImpl.lambda$generateAppScreenshotAsync$1(AppServiceImpl.java:233)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+2026-09-21T16:48:51.593+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : 开始构建 Vue 项目: E:\Desktop\ZeroCraft/tmp/code_output\vue_project_459194791651147776
+2026-09-21T16:48:51.593+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : 执行 npm install...
+2026-09-21T16:48:51.593+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : 在目录 E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776 中执行命令: npm.cmd install
+2026-09-21T16:48:53.679+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : 命令执行成功: npm.cmd install
+2026-09-21T16:48:53.679+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : 执行 npm run build...
+2026-09-21T16:48:53.681+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : 在目录 E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776 中执行命令: npm.cmd run build
+2026-09-21T16:48:56.720+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : 命令执行成功: npm.cmd run build
+2026-09-21T16:48:56.720+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.core.builder.VueProjectBuilder     : Vue 项目构建成功，dist 目录: E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776\dist
+2026-09-21T16:48:56.721+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-1] c.p.z.service.impl.AppServiceImpl        : Vue 项目构建成功，将部署 dist 目录: E:\Desktop\ZeroCraft\tmp\code_output\vue_project_459194791651147776\dist
+2026-09-21T16:48:56.739+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] c.p.z.s.impl.ScreenshotServiceImpl       : 开始生成网页截图，URL: http://localhost:81/Suf4uk/
+2026-09-21T16:48:56.756+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 153.0.8010.52 (resolved driver for Chrome 153)
+2026-09-21T16:48:56.762+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\32896\.cache\selenium\chromedriver\win64\153.0.8010.52\chromedriver.exe
+2026-09-21T16:49:04.678+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-241] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 153
+2026-09-21T16:49:04.678+08:00  WARN 27400 --- [zerocraft-backend] [    virtual-241] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 153.0.8010.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.31.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-21T16:49:29.635+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] c.pp.zerocraft.utils.WebScreenshotUtils  : 页面加载完成
+2026-09-21T16:49:29.851+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] c.pp.zerocraft.utils.WebScreenshotUtils  : 原始截图保存成功: E:\Desktop\ZeroCraft\tmp\screenshots\78e927ca\98744.png
+2026-09-21T16:49:30.074+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] c.pp.zerocraft.utils.WebScreenshotUtils  : 压缩图片保存成功: E:\Desktop\ZeroCraft\tmp\screenshots\78e927ca\08116_compressed.jpg
+2026-09-21T16:49:34.858+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] com.pp.zerocraft.manager.CosManager      : 文件上传COS成功: 08116_compressed.jpg -> https://zerocraft-1331412977.cos.ap-beijing.myqcloud.com/screenshots/2026/09/21/d49c6330_compressed.jpg
+2026-09-21T16:49:34.858+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] c.p.z.s.impl.ScreenshotServiceImpl       : 网页截图生成并上传成功: http://localhost:81/Suf4uk/ -> https://zerocraft-1331412977.cos.ap-beijing.myqcloud.com/screenshots/2026/09/21/d49c6330_compressed.jpg
+2026-09-21T16:49:34.861+08:00  INFO 27400 --- [zerocraft-backend] [    virtual-241] c.p.z.s.impl.ScreenshotServiceImpl       : 本地截图文件已清理: E:\Desktop\ZeroCraft\tmp\screenshots\78e927ca\08116_compressed.jpg
+2026-09-21T16:51:35.199+08:00  INFO 27400 --- [zerocraft-backend] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 96 class path changes (0 additions, 96 deletions, 0 modifications)
+2026-09-21T16:51:35.207+08:00  INFO 27400 --- [zerocraft-backend] [      Thread-18] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-21T16:51:35.223+08:00  INFO 27400 --- [zerocraft-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-21T16:51:35.241+08:00  INFO 27400 --- [zerocraft-backend] [      Thread-18] c.qcloud.cos.http.DefaultCosHttpClient   : shutdown stackTrace:
+Class: com.qcloud.cos.http.DefaultCosHttpClient, Method: shutdown, Line: 147
+Class: com.qcloud.cos.COSClient, Method: shutdown, Line: 183
+Class: jdk.internal.reflect.DirectMethodHandleAccessor, Method: invoke, Line: 103
+Class: java.lang.reflect.Method, Method: invoke, Line: 580
+Class: org.springframework.beans.factory.support.DisposableBeanAdapter, Method: invokeCustomDestroyMethod, Line: 317
+Class: org.springframework.beans.factory.support.DisposableBeanAdapter, Method: destroy, Line: 250
+Class: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry, Method: destroyBean, Line: 798
+Class: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry, Method: destroySingleton, Line: 748
+Class: org.springframework.beans.factory.support.DefaultListableBeanFactory, Method: destroySingleton, Line: 1506
+Class: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry, Method: destroySingletons, Line: 707
+Class: org.springframework.beans.factory.support.DefaultListableBeanFactory, Method: destroySingletons, Line: 1499
+Class: org.springframework.context.support.AbstractApplicationContext, Method: destroyBeans, Line: 1243
+Class: org.springframework.context.support.AbstractApplicationContext, Method: doClose, Line: 1204
+Class: org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext, Method: doClose, Line: 179
+Class: org.springframework.context.support.AbstractApplicationContext, Method: close, Line: 1150
+Class: org.springframework.boot.devtools.restart.Restarter, Method: stop, Line: 308
+Class: org.springframework.boot.devtools.restart.Restarter, Method: lambda$restart$1, Line: 250
+Class: org.springframework.boot.devtools.restart.Restarter$LeakSafeThread, Method: run, Line: 612
+2026-09-21T16:51:35.242+08:00  INFO 27400 --- [zerocraft-backend] [      Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-09-21T16:51:35.249+08:00  INFO 27400 --- [zerocraft-backend] [      Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-09-21T16:51:35.367+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Starting ZeroCraftApplication using Java 21.0.7 with PID 27400 (E:\Desktop\ZeroCraft\target\classes started by 32896 in E:\Desktop\ZeroCraft)
+2026-09-21T16:51:35.367+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : The following 1 profile is active: "local"
+2026-09-21T16:51:35.557+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-21T16:51:35.557+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-21T16:51:35.561+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2026-09-21T16:51:35.602+08:00  WARN 27400 --- [zerocraft-backend] [  restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.pp.zerocraft.mapper]' package. Please check your configuration.
+2026-09-21T16:51:35.662+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8123 (http)
+2026-09-21T16:51:35.663+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-21T16:51:35.663+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-09-21T16:51:35.684+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-09-21T16:51:35.685+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 316 ms
+  __  __       _           _   _       _____ _           
+ |  \/  |_   _| |__   __ _| |_(_)___  |  ___| | _____  __
+ | |\/| | | | | '_ \ / _` | __| / __| | |_  | |/ _ \ \/ /
+ | |  | | |_| | |_) | (_| | |_| \__ \ |  _| | |  __/>  < 
+ |_|  |_|\__, |_.__/ \__,_|\__|_|___/ |_|   |_|\___/_/\_\
+         |___/ v1.11.8 https://mybatis-flex.com
+2026-09-21T16:51:35.766+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-09-21T16:51:35.888+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-21T16:51:35.896+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8123 (http) with context path '/api'
+2026-09-21T16:51:35.899+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Started ZeroCraftApplication in 0.561 seconds (process running for 757.905)
+2026-09-21T16:51:35.900+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-21T16:51:38.158+08:00  INFO 27400 --- [zerocraft-backend] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 100 class path changes (100 additions, 0 deletions, 0 modifications)
+2026-09-21T16:51:38.159+08:00  INFO 27400 --- [zerocraft-backend] [      Thread-35] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-21T16:51:38.167+08:00  INFO 27400 --- [zerocraft-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-09-21T16:51:38.223+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Starting ZeroCraftApplication using Java 21.0.7 with PID 27400 (E:\Desktop\ZeroCraft\target\classes started by 32896 in E:\Desktop\ZeroCraft)
+2026-09-21T16:51:38.224+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : The following 1 profile is active: "local"
+2026-09-21T16:51:38.353+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-21T16:51:38.353+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-21T16:51:38.359+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-09-21T16:51:38.432+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8123 (http)
+2026-09-21T16:51:38.432+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-21T16:51:38.432+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-09-21T16:51:38.450+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-09-21T16:51:38.450+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 225 ms
+  __  __       _           _   _       _____ _           
+ |  \/  |_   _| |__   __ _| |_(_)___  |  ___| | _____  __
+ | |\/| | | | | '_ \ / _` | __| / __| | |_  | |/ _ \ \/ /
+ | |  | | |_| | |_) | (_| | |_| \__ \ |  _| | |  __/>  < 
+ |_|  |_|\__, |_.__/ \__,_|\__|_|___/ |_|   |_|\___/_/\_\
+         |___/ v1.11.8 https://mybatis-flex.com
+2026-09-21T16:51:38.598+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-09-21T16:51:38.619+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72ba5d30
+2026-09-21T16:51:38.619+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-09-21T16:51:38.671+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-09-21T16:51:38.763+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-21T16:51:38.772+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8123 (http) with context path '/api'
+2026-09-21T16:51:38.775+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] com.pp.zerocraft.ZeroCraftApplication    : Started ZeroCraftApplication in 0.567 seconds (process running for 760.781)
+2026-09-21T16:51:38.777+08:00  INFO 27400 --- [zerocraft-backend] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-21T16:56:50.222+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-21T16:56:50.222+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-21T16:56:50.223+08:00  INFO 27400 --- [zerocraft-backend] [nio-8123-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-21T16:56:55.851+08:00  WARN 27400 --- [zerocraft-backend] [l-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=4m17s110ms282µs300ns).
+2026-09-21T16:58:53.503+08:00  WARN 27400 --- [zerocraft-backend] [l-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1m27s638ms344µs700ns).
+2026-09-21T16:59:34.225+08:00  INFO 27400 --- [zerocraft-backend] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

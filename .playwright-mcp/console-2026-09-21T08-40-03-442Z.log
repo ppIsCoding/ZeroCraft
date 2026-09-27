@@ -1,0 +1,189 @@
+[  100897ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  100898ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <Pagination current=1 pageSize=6 total="0"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  100915ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 2, got String with value "2". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  100916ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 2, got String with value "2". 
+  at <Pagination current=1 pageSize=6 total="2"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  100916ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  100917ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <Pagination current=1 pageSize=6 total="0"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  103186ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  103187ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <Pagination current=1 pageSize=6 total="0"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  103211ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 2, got String with value "2". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  103212ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 2, got String with value "2". 
+  at <Pagination current=1 pageSize=6 total="2"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  103212ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  103213ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <Pagination current=1 pageSize=6 total="0"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  115903ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  115904ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <Pagination current=1 pageSize=6 total="0"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  115943ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 2, got String with value "2". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  115944ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 2, got String with value "2". 
+  at <Pagination current=1 pageSize=6 total="2"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  115945ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
+[  115945ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "total". Expected Number with value 0, got String with value "0". 
+  at <Pagination current=1 pageSize=6 total="0"  ... > 
+  at <APagination current=1 onUpdate:current=fn page-size=6  ... > 
+  at <HomePage onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouterView > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout-content" tagName="main"  ... > 
+  at <ALayoutContent class="main-content" > 
+  at <Anonymous hasSider=undefined prefixCls="ant-layout" tagName="section"  ... > 
+  at <ALayout class="basic-layout" > 
+  at <BasicLayout > 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/chunk-VZXQDS5F.js?v=7c797869:2124
