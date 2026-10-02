@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.Map;
 
 @Configuration
-@ConfigurationProperties(prefix = "langchain4j.open-ai.reasoning-streaming-chat-model")
+@ConfigurationProperties(prefix = "langchain4j.open-ai.streaming-chat-model")
 @Data
-public class ReasoningStreamingChatModelConfig {
+public class StreamingChatModelConfig {
 
     @Resource
     private HttpClientBuilder httpClientBuilder;
@@ -28,21 +28,20 @@ public class ReasoningStreamingChatModelConfig {
 
     private String modelName;
 
-
     private Double temperature;
 
-    private Boolean logRequests = false;
+    private boolean logRequests;
 
-    private Boolean logResponses = false;
+    private boolean logResponses;
 
     private Map<String, String> customHeaders;
 
     @Resource
-    private AiModelMonitorListener aiModelMonitorListener;
+    private AiModelMonitorListener  aiModelMonitorListener;
 
     @Bean
     @Scope("prototype")
-    public StreamingChatModel reasoningStreamingChatModelPrototype() {
+    public StreamingChatModel streamingChatModelPrototype() {
         return OpenAiStreamingChatModel.builder()
                 .httpClientBuilder(httpClientBuilder)
                 .apiKey(apiKey)

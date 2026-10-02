@@ -1,9 +1,8 @@
 package com.pp.zerocraft.config;
 
-import com.pp.zerocraft.monitor.AiModelMonitorListener;
 import dev.langchain4j.http.client.HttpClientBuilder;
-import dev.langchain4j.model.chat.StreamingChatModel;
-import dev.langchain4j.model.openai.OpenAiStreamingChatModel;
+import dev.langchain4j.model.chat.ChatModel;
+import dev.langchain4j.model.openai.OpenAiChatModel;
 import jakarta.annotation.Resource;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -11,13 +10,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
-import java.util.List;
 import java.util.Map;
 
 @Configuration
-@ConfigurationProperties(prefix = "langchain4j.open-ai.reasoning-streaming-chat-model")
+@ConfigurationProperties(prefix = "langchain4j.open-ai.routing-chat-model")
 @Data
-public class ReasoningStreamingChatModelConfig {
+public class RoutingAiModelConfig {
 
     @Resource
     private HttpClientBuilder httpClientBuilder;
@@ -28,7 +26,6 @@ public class ReasoningStreamingChatModelConfig {
 
     private String modelName;
 
-
     private Double temperature;
 
     private Boolean logRequests = false;
@@ -37,22 +34,21 @@ public class ReasoningStreamingChatModelConfig {
 
     private Map<String, String> customHeaders;
 
-    @Resource
-    private AiModelMonitorListener aiModelMonitorListener;
-
+    /**
+     * 创建用于路由判断的ChatModel
+     */
     @Bean
     @Scope("prototype")
-    public StreamingChatModel reasoningStreamingChatModelPrototype() {
-        return OpenAiStreamingChatModel.builder()
+    public ChatModel routingChatModelPrototype() {
+        return OpenAiChatModel.builder()
                 .httpClientBuilder(httpClientBuilder)
                 .apiKey(apiKey)
-                .baseUrl(baseUrl)
                 .modelName(modelName)
+                .baseUrl(baseUrl)
                 .temperature(temperature)
                 .customHeaders(customHeaders)
                 .logRequests(logRequests)
                 .logResponses(logResponses)
-                .listeners(List.of(aiModelMonitorListener))
                 .build();
     }
 }
