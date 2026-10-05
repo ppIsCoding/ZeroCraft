@@ -3,9 +3,9 @@ package com.pp.zerocraft.aop;
 import com.pp.zerocraft.annotation.AuthCheck;
 import com.pp.zerocraft.exception.BusinessException;
 import com.pp.zerocraft.exception.ErrorCode;
+import com.pp.zerocraft.innerservice.InnerUserService;
 import com.pp.zerocraft.model.entity.User;
 import com.pp.zerocraft.model.enums.UserRoleEnum;
-import com.pp.zerocraft.service.UserService;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -20,9 +20,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 @Component
 public class AuthInterceptor {
 
-    @Resource
-    private UserService userService;
-
     /**
      * 执行拦截
      *
@@ -35,7 +32,7 @@ public class AuthInterceptor {
         RequestAttributes requestAttributes = RequestContextHolder.currentRequestAttributes();
         HttpServletRequest request = ((ServletRequestAttributes) requestAttributes).getRequest();
         // 当前登录用户
-        User loginUser = userService.getLoginUser(request);
+        User loginUser = InnerUserService.getLoginUser(request);
         UserRoleEnum mustRoleEnum = UserRoleEnum.getEnumByValue(mustRole);
         // 不需要权限，放行
         if (mustRoleEnum == null) {
