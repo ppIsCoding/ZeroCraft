@@ -18,6 +18,15 @@
     </properties>
 
     <dependencies>
+        <!-- Dubbo -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-nacos-spring-boot-starter</artifactId>
+        </dependency>
         <!-- 腾讯云 COS 对象存储 -->
         <dependency>
             <groupId>com.qcloud</groupId>

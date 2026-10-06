@@ -6,7 +6,6 @@ import com.pp.zerocraft.exception.ErrorCode;
 import com.pp.zerocraft.innerservice.InnerUserService;
 import com.pp.zerocraft.model.entity.User;
 import com.pp.zerocraft.model.enums.UserRoleEnum;
-import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

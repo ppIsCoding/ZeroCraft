@@ -37,6 +37,7 @@ import java.util.List;
 public class ChatHistoryServiceImpl extends ServiceImpl<ChatHistoryMapper, ChatHistory>  implements ChatHistoryService{
 
     @Resource
+    @Lazy
     private AppService appService;
 
     /**

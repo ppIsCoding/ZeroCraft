@@ -15,6 +15,7 @@ import com.pp.zerocraft.model.entity.User;
 import com.pp.zerocraft.service.ChatHistoryService;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
+import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.web.bind.annotation.*;
@@ -30,10 +31,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/chatHistory")
 public class ChatHistoryController {
-
-    @Resource
-    @Lazy
-    private InnerUserService userService;
 
     /**
      * 分页查询某个应用的对话历史（游标查询）

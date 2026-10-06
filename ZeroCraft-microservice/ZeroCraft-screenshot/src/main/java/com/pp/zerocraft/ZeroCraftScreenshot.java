@@ -1,18 +1,15 @@
 package com.pp.zerocraft;
 
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@MapperScan("com.pp.zerocraft.mapper")
-@ComponentScan("com.pp")
 @EnableDubbo
-class ZeroCraftUserApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(ZeroCraftUserApplication.class, args);
-    }
-}
+class ZeroCraftScreenshot {
 
+    public static void main(String[] args) {
+        SpringApplication.run(ZeroCraftScreenshot.class, args);
+    }
+
+}
